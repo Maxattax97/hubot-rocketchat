@@ -1,4 +1,4 @@
-FROM node:10.16.3
+FROM node:12.9.0
 MAINTAINER Rocket.Chat Team <buildmaster@rocket.chat>
 
 RUN npm install -g coffee-script yo generator-hubot  &&  \
